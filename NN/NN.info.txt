@@ -1,0 +1,6 @@
+NN is a C++ library that implements "neural networks" learning sistems. 
+The library contains:
+NO.hpp "Neuronal objects" Define the neuron types and his internal computional routines, each type has his own recuirments in condition of the type and function.
+CN.hpp "Combinational network" Creates the network structure based on the number of inputs, outputs an hiden layers, on a bidimensional and tridimensional configurations.
+DA.hpp "Data administration" Routines for update the inputs of the nn as the results, training data ralated to his inputs and desired output, and the nn structure. This subsistem use csv data structures.
+NN.hpp "Neural network" Final library, contains all the others with the relartions for an easy implementation.
